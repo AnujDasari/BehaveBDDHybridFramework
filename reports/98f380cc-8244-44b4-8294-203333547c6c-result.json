@@ -1,0 +1,203 @@
+{
+  "name": "Cancel a Resignation Request -- @1.1 ",
+  "status": "passed",
+  "steps": [
+    {
+      "name": "Given User navigated to Login page",
+      "status": "passed",
+      "attachments": [
+        {
+          "name": "User navigated to Login page",
+          "source": "b28e6a2d-5973-41d3-b461-50167e826586-attachment.png",
+          "type": "image/png"
+        }
+      ],
+      "start": 1715598325646,
+      "stop": 1715598325787
+    },
+    {
+      "name": "When User enters valid username as \"Admin\" and password as \"7Ac4C@IwIr\" into the fields",
+      "status": "passed",
+      "attachments": [
+        {
+          "name": "User enters valid username as \"Admin\" and password as \"7Ac4C@IwIr\" into the fields",
+          "source": "93388b51-c8f3-463b-8932-5bbdc963cb6f-attachment.png",
+          "type": "image/png"
+        }
+      ],
+      "start": 1715598325788,
+      "stop": 1715598326317
+    },
+    {
+      "name": "And User clicks on Login button",
+      "status": "passed",
+      "attachments": [
+        {
+          "name": "User clicks on Login button",
+          "source": "ddd99dc3-6723-437f-8608-186d9aa4b063-attachment.png",
+          "type": "image/png"
+        }
+      ],
+      "start": 1715598326317,
+      "stop": 1715598361030
+    },
+    {
+      "name": "Then User should get logged in",
+      "status": "passed",
+      "attachments": [
+        {
+          "name": "User should get logged in",
+          "source": "acf19bef-85fb-4509-9900-15030ab5551f-attachment.png",
+          "type": "image/png"
+        }
+      ],
+      "start": 1715598361031,
+      "stop": 1715598361231
+    },
+    {
+      "name": "When User clicks on Request Desk option from the left menu",
+      "status": "passed",
+      "attachments": [
+        {
+          "name": "User clicks on Request Desk option from the left menu",
+          "source": "4989c455-3e5d-40b5-8151-9e120a2d100f-attachment.png",
+          "type": "image/png"
+        }
+      ],
+      "start": 1715598361231,
+      "stop": 1715598362164
+    },
+    {
+      "name": "And User selects Resignation Request from the Request type dropdown",
+      "status": "passed",
+      "attachments": [
+        {
+          "name": "User selects Resignation Request from the Request type dropdown",
+          "source": "ec02f4c0-fda4-4d56-9b38-0f389db285ae-attachment.png",
+          "type": "image/png"
+        }
+      ],
+      "start": 1715598362164,
+      "stop": 1715598365155
+    },
+    {
+      "name": "And User clicks on Next button",
+      "status": "passed",
+      "attachments": [
+        {
+          "name": "User clicks on Next button",
+          "source": "0e5ab5ab-1d11-4bd1-b806-d0648ea73fcf-attachment.png",
+          "type": "image/png"
+        }
+      ],
+      "start": 1715598365155,
+      "stop": 1715598365385
+    },
+    {
+      "name": "When User enters resignation reason as \"Not satisfied with the salary\"",
+      "status": "passed",
+      "attachments": [
+        {
+          "name": "User enters resignation reason as \"Not satisfied with the salary\"",
+          "source": "766bf694-9824-4815-9582-25915daa87d9-attachment.png",
+          "type": "image/png"
+        }
+      ],
+      "start": 1715598365386,
+      "stop": 1715598366907
+    },
+    {
+      "name": "And User enters resolution date as \"2024-06-13\"",
+      "status": "passed",
+      "attachments": [
+        {
+          "name": "User enters resolution date as \"2024-06-13\"",
+          "source": "ef2ea1aa-9453-4b1b-abbc-a778e3032227-attachment.png",
+          "type": "image/png"
+        }
+      ],
+      "start": 1715598366907,
+      "stop": 1715598367278
+    },
+    {
+      "name": "And User enters resignation date as \"2024-06-05\"",
+      "status": "passed",
+      "attachments": [
+        {
+          "name": "User enters resignation date as \"2024-06-05\"",
+          "source": "88ffc489-12dd-4c21-80f7-d53c2e8c8af5-attachment.png",
+          "type": "image/png"
+        }
+      ],
+      "start": 1715598367278,
+      "stop": 1715598367654
+    },
+    {
+      "name": "When User clicks on Cancel button",
+      "status": "passed",
+      "attachments": [
+        {
+          "name": "User clicks on Cancel button",
+          "source": "12fe34cc-989d-45db-8e51-1d1d0edfdf64-attachment.png",
+          "type": "image/png"
+        }
+      ],
+      "start": 1715598367655,
+      "stop": 1715598367947
+    },
+    {
+      "name": "Then Requests page should be displayed with title as \"My Requests\"",
+      "status": "passed",
+      "attachments": [
+        {
+          "name": "Requests page should be displayed with title as \"My Requests\"",
+          "source": "9fd10aae-4be0-4098-ac1c-7d284feef941-attachment.png",
+          "type": "image/png"
+        }
+      ],
+      "start": 1715598367947,
+      "stop": 1715598368115
+    }
+  ],
+  "parameters": [
+    {
+      "name": "resignation_reason",
+      "value": "Not satisfied with the salary"
+    },
+    {
+      "name": "resolution_date",
+      "value": "2024-06-13"
+    },
+    {
+      "name": "resignation_date",
+      "value": "2024-06-05"
+    }
+  ],
+  "start": 1715598317592,
+  "stop": 1715598374395,
+  "uuid": "9d53b55d-02f6-491f-9fa6-8ed4ad7670f5",
+  "historyId": "7e0ff773609749ed58c5e27d7ff997be",
+  "fullName": "Employee Management Functionality: Cancel a Resignation Request",
+  "labels": [
+    {
+      "name": "severity",
+      "value": "normal"
+    },
+    {
+      "name": "tag",
+      "value": "employment_management-1"
+    },
+    {
+      "name": "feature",
+      "value": "Employee Management Functionality"
+    },
+    {
+      "name": "framework",
+      "value": "behave"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    }
+  ]
+}

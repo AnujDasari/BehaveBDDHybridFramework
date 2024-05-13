@@ -1,0 +1,90 @@
+{
+  "name": "Login with invalid credentials",
+  "status": "passed",
+  "steps": [
+    {
+      "name": "Given User navigated to Login page",
+      "status": "passed",
+      "attachments": [
+        {
+          "name": "User navigated to Login page",
+          "source": "f0e4d18e-f607-493f-843a-51f25550e648-attachment.png",
+          "type": "image/png"
+        }
+      ],
+      "start": 1715598494077,
+      "stop": 1715598494215
+    },
+    {
+      "name": "When User enters invalid username and invalid password into the fields",
+      "status": "passed",
+      "attachments": [
+        {
+          "name": ".table",
+          "source": "b260f158-1d42-495d-9fd2-235ad225cdd3-attachment.csv",
+          "type": "text/csv"
+        },
+        {
+          "name": "User enters invalid username and invalid password into the fields",
+          "source": "c36aecc6-0a29-4379-9e8d-d884e2161b2d-attachment.png",
+          "type": "image/png"
+        }
+      ],
+      "start": 1715598494215,
+      "stop": 1715598494726
+    },
+    {
+      "name": "And User clicks on Login button",
+      "status": "passed",
+      "attachments": [
+        {
+          "name": "User clicks on Login button",
+          "source": "41190818-1fe2-4cb2-938f-18f4afe3e8f4-attachment.png",
+          "type": "image/png"
+        }
+      ],
+      "start": 1715598494726,
+      "stop": 1715598498514
+    },
+    {
+      "name": "Then User should get a proper warning message as \"Invalid Credentials\"",
+      "status": "passed",
+      "attachments": [
+        {
+          "name": "User should get a proper warning message as \"Invalid Credentials\"",
+          "source": "3f87f6df-f03b-4d7b-94c8-aed873ef9ff1-attachment.png",
+          "type": "image/png"
+        }
+      ],
+      "start": 1715598498515,
+      "stop": 1715598498719
+    }
+  ],
+  "start": 1715598483952,
+  "stop": 1715598504952,
+  "uuid": "95df9f9a-a1e1-4c5b-84a7-e2292de441fc",
+  "historyId": "0e84b8c3b0b988066cc26b5fe5b74f06",
+  "fullName": "Login Functionality: Login with invalid credentials",
+  "labels": [
+    {
+      "name": "severity",
+      "value": "normal"
+    },
+    {
+      "name": "tag",
+      "value": "login"
+    },
+    {
+      "name": "feature",
+      "value": "Login Functionality"
+    },
+    {
+      "name": "framework",
+      "value": "behave"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    }
+  ]
+}

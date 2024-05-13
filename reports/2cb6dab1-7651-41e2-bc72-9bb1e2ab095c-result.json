@@ -1,0 +1,137 @@
+{
+  "name": "Search for an existing employee",
+  "status": "passed",
+  "steps": [
+    {
+      "name": "Given User navigated to Login page",
+      "status": "passed",
+      "attachments": [
+        {
+          "name": "User navigated to Login page",
+          "source": "58fe7f38-5a9a-4086-9394-0b49414d6336-attachment.png",
+          "type": "image/png"
+        }
+      ],
+      "start": 1715598251193,
+      "stop": 1715598251440
+    },
+    {
+      "name": "When User enters valid username as \"Admin\" and password as \"7Ac4C@IwIr\" into the fields",
+      "status": "passed",
+      "attachments": [
+        {
+          "name": "User enters valid username as \"Admin\" and password as \"7Ac4C@IwIr\" into the fields",
+          "source": "8c3e5672-cc1c-4fff-a8db-926ac7c07d1d-attachment.png",
+          "type": "image/png"
+        }
+      ],
+      "start": 1715598251440,
+      "stop": 1715598252260
+    },
+    {
+      "name": "And User clicks on Login button",
+      "status": "passed",
+      "attachments": [
+        {
+          "name": "User clicks on Login button",
+          "source": "a62d7b45-5621-4c04-b1c7-a9ce76bdfcb4-attachment.png",
+          "type": "image/png"
+        }
+      ],
+      "start": 1715598252261,
+      "stop": 1715598265921
+    },
+    {
+      "name": "Then User should get logged in",
+      "status": "passed",
+      "attachments": [
+        {
+          "name": "User should get logged in",
+          "source": "db379dd9-c9c1-44c0-aea7-a0f36a746e1b-attachment.png",
+          "type": "image/png"
+        }
+      ],
+      "start": 1715598265921,
+      "stop": 1715598266115
+    },
+    {
+      "name": "When User clicks on Employee List link",
+      "status": "passed",
+      "attachments": [
+        {
+          "name": "User clicks on Employee List link",
+          "source": "c784fcd8-e0c8-49ec-ab20-6ad853acf5ed-attachment.png",
+          "type": "image/png"
+        }
+      ],
+      "start": 1715598266115,
+      "stop": 1715598266408
+    },
+    {
+      "name": "And User enters valid employee name as \"Aaron Hamilton\" in the Employee Name search field",
+      "status": "passed",
+      "attachments": [
+        {
+          "name": "User enters valid employee name as \"Aaron Hamilton\" in the Employee Name search field",
+          "source": "de185cce-7275-4273-bb57-56fd81ec183b-attachment.png",
+          "type": "image/png"
+        }
+      ],
+      "start": 1715598266408,
+      "stop": 1715598270584
+    },
+    {
+      "name": "And User clicks on Search icon",
+      "status": "passed",
+      "attachments": [
+        {
+          "name": "User clicks on Search icon",
+          "source": "f6c0ac70-970c-4e6e-a994-de89021d7f65-attachment.png",
+          "type": "image/png"
+        }
+      ],
+      "start": 1715598270584,
+      "stop": 1715598270870
+    },
+    {
+      "name": "Then Employee details with employee id \"1007\" should be displayed",
+      "status": "passed",
+      "attachments": [
+        {
+          "name": "Employee details with employee id \"1007\" should be displayed",
+          "source": "0c5ef57e-c004-49d3-9e3b-a9425e5e42f0-attachment.png",
+          "type": "image/png"
+        }
+      ],
+      "start": 1715598270870,
+      "stop": 1715598273200
+    }
+  ],
+  "start": 1715598231315,
+  "stop": 1715598279476,
+  "uuid": "908aff77-f535-4df0-8fd4-90dfbf7ebd94",
+  "historyId": "26a723a4f6a978625ae76a8bacdec980",
+  "fullName": "Employee Management Functionality: Search for an existing employee",
+  "labels": [
+    {
+      "name": "severity",
+      "value": "normal"
+    },
+    {
+      "name": "tag",
+      "value": "employment_management"
+    },
+    {
+      "name": "feature",
+      "value": "Employee Management Functionality"
+    },
+    {
+      "name": "framework",
+      "value": "behave"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    }
+  ]
+}

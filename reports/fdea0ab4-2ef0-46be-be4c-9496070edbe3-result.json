@@ -1,0 +1,85 @@
+{
+  "name": "Login with valid credentials",
+  "status": "passed",
+  "steps": [
+    {
+      "name": "Given User navigated to Login page",
+      "status": "passed",
+      "attachments": [
+        {
+          "name": "User navigated to Login page",
+          "source": "15574bf8-fe1e-4b2d-ac30-737688dedf0f-attachment.png",
+          "type": "image/png"
+        }
+      ],
+      "start": 1715598444486,
+      "stop": 1715598444623
+    },
+    {
+      "name": "When User enters valid username as \"Admin\" and password as \"7Ac4C@IwIr\" into the fields",
+      "status": "passed",
+      "attachments": [
+        {
+          "name": "User enters valid username as \"Admin\" and password as \"7Ac4C@IwIr\" into the fields",
+          "source": "8b72fda2-445d-4ba5-ba38-5ca776e45a85-attachment.png",
+          "type": "image/png"
+        }
+      ],
+      "start": 1715598444623,
+      "stop": 1715598445108
+    },
+    {
+      "name": "And User clicks on Login button",
+      "status": "passed",
+      "attachments": [
+        {
+          "name": "User clicks on Login button",
+          "source": "95bae4cb-c10c-4242-bebb-48f2f850e1ba-attachment.png",
+          "type": "image/png"
+        }
+      ],
+      "start": 1715598445108,
+      "stop": 1715598462373
+    },
+    {
+      "name": "Then User should get logged in",
+      "status": "passed",
+      "attachments": [
+        {
+          "name": "User should get logged in",
+          "source": "c3ee533b-ebe9-4c0a-99c9-bd7dbf25231d-attachment.png",
+          "type": "image/png"
+        }
+      ],
+      "start": 1715598462373,
+      "stop": 1715598462566
+    }
+  ],
+  "start": 1715598436032,
+  "stop": 1715598468801,
+  "uuid": "042fb776-ef75-4fd2-acf8-053fbb5f20f3",
+  "historyId": "fbb5f214e438903130c79869293df802",
+  "fullName": "Login Functionality: Login with valid credentials",
+  "labels": [
+    {
+      "name": "severity",
+      "value": "normal"
+    },
+    {
+      "name": "tag",
+      "value": "login"
+    },
+    {
+      "name": "feature",
+      "value": "Login Functionality"
+    },
+    {
+      "name": "framework",
+      "value": "behave"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    }
+  ]
+}

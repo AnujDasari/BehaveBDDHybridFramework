@@ -1,0 +1,137 @@
+{
+  "name": "Search for a non-existing employee",
+  "status": "passed",
+  "steps": [
+    {
+      "name": "Given User navigated to Login page",
+      "status": "passed",
+      "attachments": [
+        {
+          "name": "User navigated to Login page",
+          "source": "869998f5-beea-4638-b039-7178bfe8ddaf-attachment.png",
+          "type": "image/png"
+        }
+      ],
+      "start": 1715598289755,
+      "stop": 1715598290012
+    },
+    {
+      "name": "When User enters valid username as \"Admin\" and password as \"7Ac4C@IwIr\" into the fields",
+      "status": "passed",
+      "attachments": [
+        {
+          "name": "User enters valid username as \"Admin\" and password as \"7Ac4C@IwIr\" into the fields",
+          "source": "87e9b827-7e72-486e-9d2f-794ecb007dd5-attachment.png",
+          "type": "image/png"
+        }
+      ],
+      "start": 1715598290012,
+      "stop": 1715598290736
+    },
+    {
+      "name": "And User clicks on Login button",
+      "status": "passed",
+      "attachments": [
+        {
+          "name": "User clicks on Login button",
+          "source": "8b005210-0c3f-4f54-9b4a-78c8b12e08e4-attachment.png",
+          "type": "image/png"
+        }
+      ],
+      "start": 1715598290736,
+      "stop": 1715598305019
+    },
+    {
+      "name": "Then User should get logged in",
+      "status": "passed",
+      "attachments": [
+        {
+          "name": "User should get logged in",
+          "source": "e1dd91df-1393-45ba-859e-dce9c20c1d96-attachment.png",
+          "type": "image/png"
+        }
+      ],
+      "start": 1715598305019,
+      "stop": 1715598305223
+    },
+    {
+      "name": "When User clicks on Employee List link",
+      "status": "passed",
+      "attachments": [
+        {
+          "name": "User clicks on Employee List link",
+          "source": "8228a67a-9301-4d31-baeb-1c2a88b80f45-attachment.png",
+          "type": "image/png"
+        }
+      ],
+      "start": 1715598305223,
+      "stop": 1715598305545
+    },
+    {
+      "name": "And User enters non existing employee name as \"Abc zyx\" in the Employee Name search field",
+      "status": "passed",
+      "attachments": [
+        {
+          "name": "User enters non existing employee name as \"Abc zyx\" in the Employee Name search field",
+          "source": "108ae9e8-c3a1-4b4e-945c-f69843860c5e-attachment.png",
+          "type": "image/png"
+        }
+      ],
+      "start": 1715598305545,
+      "stop": 1715598309720
+    },
+    {
+      "name": "And User clicks on Search icon",
+      "status": "passed",
+      "attachments": [
+        {
+          "name": "User clicks on Search icon",
+          "source": "cd70b67c-3372-4d9f-967e-008265160fc3-attachment.png",
+          "type": "image/png"
+        }
+      ],
+      "start": 1715598309721,
+      "stop": 1715598309968
+    },
+    {
+      "name": "Then Toast message \"No Records Found\" should be displayed",
+      "status": "passed",
+      "attachments": [
+        {
+          "name": "Toast message \"No Records Found\" should be displayed",
+          "source": "ffde4684-a600-45b5-8d2e-050c84601e7c-attachment.png",
+          "type": "image/png"
+        }
+      ],
+      "start": 1715598309968,
+      "stop": 1715598311300
+    }
+  ],
+  "start": 1715598279479,
+  "stop": 1715598317589,
+  "uuid": "562b18f3-7286-439f-8793-d04e40d493cf",
+  "historyId": "0cae7c386ceb785a35a5864b0e0ec970",
+  "fullName": "Employee Management Functionality: Search for a non-existing employee",
+  "labels": [
+    {
+      "name": "severity",
+      "value": "normal"
+    },
+    {
+      "name": "tag",
+      "value": "employment_management"
+    },
+    {
+      "name": "feature",
+      "value": "Employee Management Functionality"
+    },
+    {
+      "name": "framework",
+      "value": "behave"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    }
+  ]
+}
